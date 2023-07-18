@@ -1,0 +1,44 @@
+* {margin : 0; padding : 0; box-sizing: border-box;}
+body{
+    font-family: 'montserrat' , sans-serif;
+    color:#fff;
+    background-image: url('hava\ durumu.webp');
+    background-position : center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height : 100vh;
+    margin: 50px, 50px, 50px, 50px; 
+}
+
+.app{
+    display: flex;
+    flex-direction : column; /* Bu islem yazilar alt alta gelsin diye */
+    align-items:center;
+    text-align:center;
+    background: rgba(0,0,0,.7);
+    height: 100vh;
+}
+
+header{
+    padding: 50px, 30px,30px,50px;
+}
+
+.header input{
+    width:300px;
+    height:50px;
+    text-align:center;
+    background:transparent;
+    font-size: 30px;
+    border-bottom: 2px, solid, red;
+    color:#fff;
+}
+
+.header p{
+    font-size: 50px;
+    text-shadow: 1px, 3px, 4px, red; /* bu featur calismiyor e*/ 
+    padding: 50px, 30px, 30px,50px;
+    color: #fff;
+}
+
+/* Position : relative kullandigim bir ogenin icinde position : absolute kullanirsam. İcerdeki oge disardakinin disina cikmaz. İcerde kalir. */
+/* display kullanımı ile ilgili güzel bir örnek : https://www.w3schools.com/cssref/tryit.php?filename=trycss_display */
